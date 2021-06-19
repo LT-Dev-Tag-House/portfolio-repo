@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&display=swap');
+body {
+    background-color: #001427;
+    color: #faf3dd;
+    font-family: 'Miriam Libre', sans-serif;
+}
+
+.btn-profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35vh;
+}
+
+a button {
+    width: 200px;
+    background: none;
+    color: #FFC107;
+    border: 2px solid;
+    padding: 1rem 2rem;
+    font-size: 1.55rem;
+    transition: all 0.25s;
+}
+
+a button:hover:before{
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.55em);
+    cursor: pointer;
+    content: "Click Me";
+
+}
+
+a button:hover span{
+    display: none;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.55em);
+}
+
+a button:hover{
+    border-color: #f1ff5c;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f1ff5c;
+    transform: translateY(-0.55em);
+    cursor: pointer;
+    content: "Click Me";
+
+}
+
+
+/* PROFILE OVERVIEW */
+
+.profile-img img {
+    clip-path: circle(45%);
+    width: 55%;  
+}
+
+.col-lg-8 .bg-dark {
+    background-color: #22223b !important;
+}
+
+.col-lg-4 .bg-dark {
+    background-color:#ff6d00 !important;
+}
+
+.soft-skills {
+    border-radius: 10px;
+}
+
+.team-player  {
+    background-color: #70e000;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding: 0.55rem 0.55rem;
+    border-radius: 2.5rem;
+}
+
+.communication {
+    background-color: #4895ef;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding: 0.55rem 1rem;
+    border-radius: 2.5rem;
+}
+
+.adaptability {
+    background-color: #ff8500;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding: 0.55rem 1rem;
+    border-radius: 2.5rem;
+}
+
+.interpersonal-skills {
+    background-color: #5a189a;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding: 0.55rem 1rem;
+    border-radius: 2.5rem;
+}
+
+.problem-solving {
+    background-color: #d80032;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding: 0.55rem 1rem;
+    border-radius: 2.5rem;
+}
+
+.work-ethic {
+    background-color: #5a189a;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding: 0.55rem 1rem;
+    border-radius: 2.5rem;
+}
+
+.leadership {
+    background-color: #4895ef;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding: 0.55rem 1rem;
+    border-radius: 2.5rem;
+}
+
+.creativity {
+    background-color: #70e000;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    padding: 0.55rem 1rem;
+    border-radius: 2.5rem;
+}
+
+section .soft-skills {
+    background-color: #22223b !important;
+    border-radius: 10px;
+}
+
+section .tools {
+    background-color: #22223b !important;
+    border-radius: 10px;
+}
+
+.bi {
+    padding-left: 0.64rem;
+    padding-right: 0.64rem;
+}
+
+.custom-background {
+    background-color: #22223b !important;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
