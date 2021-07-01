@@ -156,3 +156,10 @@ a {
     text-decoration: none;
     color: whitesmoke;
 }
+
+blockquote {
+    border-left: 13px solid #001427;
+    background-color: #ced4da;
+    padding: 2rem;
+    opacity: .75;
+}
